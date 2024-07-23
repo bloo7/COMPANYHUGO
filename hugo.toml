@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/bloo7/COMPANYHUGO.io.git'
+baseURL = 'https://bloo7.github.io/COMPANYHUGO.github.io/'
 relativeURLs = "true"
 languageCode = 'ar'
 title = 'شركة تقنية'
