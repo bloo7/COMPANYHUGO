@@ -1,6 +1,6 @@
 {{ define "main" }}
     {{ partial "header" . }}
-    <div class="services-header">
+    <div class="service-header">
         <i class="{{.Params.icon}}"></i>
         <h1>{{.Title}}</h1>
     </div>
@@ -9,5 +9,6 @@
             {{.Content}}
         </div>
     </div>
+
     {{ partial "footer" . }}
-{{ end }}
+{{end}}
