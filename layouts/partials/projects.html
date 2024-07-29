@@ -8,12 +8,12 @@
               <div class="project-card">
                   <div class="project-card__container">
                       <div class="project-head">
-                          <a href="{{.RalPermalink}}">
+                          <a href="{{.Permalink}}">
                               <img src="{{.Params.thumb}}" alt="project">
                           </a>
                       </div>
                       <div class="project-body">
-                          <a class="project-body__title" href="{{.RalPermalink}}">{{.Title}}</a>
+                          <a class="project-body__title" href="{{.Permalink}}">{{.Title}}</a>
                           <p class="project-body__description">
                               {{ truncate 60 .Params.summary }}
                           </p>

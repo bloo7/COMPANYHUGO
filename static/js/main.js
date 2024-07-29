@@ -90,7 +90,7 @@ let projectImage = document.querySelectorAll(".project-image"),
     layerImage = document.querySelector(".layer .layer-container img");
 
 
-if (document.body.classList.contains("project")) {
+if (document.body.classList.contains("projects")) {
     layerClose.addEventListener("click", function () {
         layer.classList.remove("layer--show");
     });
